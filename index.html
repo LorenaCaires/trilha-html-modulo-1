@@ -7,55 +7,72 @@
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <h1>Primeiros Passos com HTML</h1>
     <hr />
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <h2 id="indice">Índice</h2>
+    
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura-basica">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#links">Links de referências</a></li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="historia">História dos computadores</h2>
+     <small><a href="#indice">voltar</a></small>
+    <p> O primeiro computador <strong>Harvard Mark 1</stong> foi criado em 1944 com o intuito de ser uma máquina de cálculo.
+        Apesar de ser considerado o primeiro computador, a ideia de um já existia a décadas.
+        Os computadores da primeira geração ocupavam, quase que totalmente, uma sala inteira.
+        Os primeiros computadores eram utilizados em relação a calculos durante a guerra. A <i>guerra fria</i> incentivou a evolução dos computadores através de competição.
+        A internet surgiu a partir da teoria de <stong>Joseph Carl Robbnet Licklider</strong> que consistia em uma rede onde todos poderiam se comunicar através dela.
+        A primeira conexão foi estabelecida em <u>29/10/1969</u>, entre a UCLA (University of California) e SRI (Stanford Research Institute).
+        Em 1989, <u>Tim Berners-Lee</u> uniu hipertexto com TCP/IP e criou a World Wild Web (WWW), o primeiro navegador.
+       </p>
+    
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+     <small><a href="#indice">voltar</a></small>
+    <p> O termo ,i>clients</i> ou <i>clientes</i> representa uma entidade que consomem os serviços de outra entidade servidors, através do uso de uma rede de computadores em uma arquitetura cliente-servidor.</p>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+     <small><a href="#indice">voltar</a></small>
+<p><i>Servers</i> ou <i>Servidores</i>é um computador "gigante" com grande capacidade de armazenamento e processamento cujo objetivo é conectar outros computadores através de uma rede.</p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <h2 id="estrutura-basica">Como é uma estrutura básica de um HTML?</h2>
+     <small><a href="#indice">voltar</a></small>
+<p>A estrutura básica do HTML consiste em utilização de <strong>tags</strong>, as essenciais consistem em:</p>
+<ul>
+    <li><u>Doctype</u>- o <strong>Doctype</strong> não é uma teg HTML, mas sim uma instrução para o navegador e outros programas que podem ler seu site. O Doctype é <strong>obrigatório</stong> e deve sempre ser a <i>primeira</i> linha do seu documento.</li>
+    <li><u>Head</u>- A tag <strong>head</strong> contém informações contidas na "<i>cabeça</i>" do site. Essas informações não são visiveis para o cliente, na páina em si.</li>
+    <li><u>body</u>- A tag <strong>body</strong> trata-se do documento em si. É dentro dessa tag que se encomtra toda a estrutura do site.</li>
+    
+    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+     <small><a href="#indice">voltar</a></small>
+    <p>As listas ordenadas possuem a tag <u><ol></u> para sua abertura e <u></ol></u> para seu encerramento, seus tópicos são apresentados em ordem númerica, justamente por serem ordenados.
+        Já as listas não ordenadas possuem a tag<u><ul></u> para a sua abertura e <u></ul></u> para seu encerramento, seus tópicos são apresentados com "<i>bolinhas</i>" no inicio de cada um.
+        Ambas as listas devem comter as tags <li> e </li> para cada tópico, individualmente. Exemplos:</p>
+    <h3>lista ordenada</h3>
+    <ol>
+        <li>Tópico 1</li>
+        <li>Tópico 2</li>
+        <li>Tópico 3</li>
+    </ol>
+    <h3>lista não ordenada</h3>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+        <li>Tópico 1</li>
+        <li>Tópico 2</li>
+        <li>Tópico 3</li>
+    </ul>
+
+    <h2 id"links">Links de referências</h2>
+    <small><a href="#indice">voltar</a></small>
+    <p> Outros sites onde encontrar informações sobre HTML</p>
+    <ul>
+        <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">w3schools</a></li>
+        <li><a href="https://www.theodinproject.com/paths/foundations/courses/foundations" target="_blank">The Odin Project</a></li>
     </ul>
 
 </body>
